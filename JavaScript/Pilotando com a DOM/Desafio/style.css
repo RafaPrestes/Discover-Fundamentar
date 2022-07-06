@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    background-color: rgb(166, 107, 189);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-wrapper {
+    position: absolute;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.invisible {
+    display: none;
+}
